@@ -5,7 +5,7 @@ from app.models import *
 
 
 class User(Base):
-    __tablename__ = 'users'
+    __tablename__ = 'user'
     __table_args__ = {'keep_existing': True}
     id = Column(Integer, primary_key=True, index=True)
     username = Column(String)
